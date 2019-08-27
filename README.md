@@ -4,7 +4,7 @@ File :
 1. used with "backup-config-cisco.py" for backup script
 2. used with "hosts.txt" for list all device.
 
-Requirement :
+Requirement & How to Use :
 1. Install Python minimal version 3.6
 2. Create Virtual Enviroment Windows
 3. Install Pip
