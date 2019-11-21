@@ -24,8 +24,6 @@ for host in hosts:
     	"username": userName,
     	"password": passWord,
     	"device_type": 'cisco_ios', 
-
-		
 	}
 
 	# Netmiko SSH Connection Handler
@@ -38,7 +36,7 @@ for host in hosts:
 	# Execute commands
 	output = net_connect.send_command('terminal length 0')
 	print('...................CISCO COMMAND SHOW RUN OUTPUT......................\n')
-	output = net_connect.send_command('show run')
+	output = net_connect.send_command('show ip interface brief')
 
 	# Print output to console screen
 	print(output)
