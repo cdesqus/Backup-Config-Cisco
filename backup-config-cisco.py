@@ -25,7 +25,6 @@ for host in hosts:
     	"password": passWord,
     	"device_type": 'cisco_ios', 
 
-		
 	}
 
 	# Netmiko SSH Connection Handler
